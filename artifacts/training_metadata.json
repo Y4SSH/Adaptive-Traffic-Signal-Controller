@@ -1,10 +1,10 @@
 {
   "training": {
     "script": "src/agent/train.py",
-    "total_timesteps": 12000,
+    "total_timesteps": 100000,
     "seed": 2026,
     "hyperparameters": {
-      "learning_rate": 7.5e-4,
+      "learning_rate": 0.00075,
       "gamma": 0.985,
       "exploration_fraction": 0.15,
       "exploration_final_eps": 0.02
@@ -17,22 +17,33 @@
     "burst_intensity": 1.5,
     "horizon": 4000,
     "max_steps": 1200,
-    "seeds": [10,20,30,40,50,60,70,80,90,100],
+    "seeds": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
     "output": "eval_logs/evaluations.peak.retrained.extended.npz"
   },
   "provenance": {
-    "git_ref": "4cfb03f",
+    "git_ref": "f0d188a",
     "python_version": "3.10.11",
-    "created_at": "2026-05-30T15:11:48.0630410+05:30"
+    "created_at": "2026-05-30T16:13:44.376561"
   },
   "artifacts": {
     "bundle": {
       "path": "artifacts/artifacts_bundle.zip",
-      "sha256": "4116DC5BE2FAAA863E0D0102CB23268CE3149125615CE250828A0C9CA23DC908"
+      "sha256": "A8C00EB49AB7F7EEA750B2359622D550712F3554DE67134773BE6E4D68AF5226"
     }
   },
   "evaluation_results": {
-    "path": "eval_logs/evaluations.peak.retrained.extended.npz",
+    "path": "eval_logs/evaluations.peak.retrained.final.npz",
     "summary": {
       "baseline_mean_delay": 612811.5,
       "dqn_mean_delay": 585172.3,
