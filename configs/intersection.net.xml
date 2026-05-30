@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-05-26T22:20:10.208128+05:30 by Eclipse SUMO netconvert 1.27.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="configs\intersection.nod.xml"/>
+        <edge-files value="configs\intersection.edg.xml"/>
+        <connection-files value="configs\intersection.con.xml"/>
+    </input>
+
+    <output>
+        <output-file value="configs\intersection.net.xml"/>
+    </output>
+
+</netconvertConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="300.00,300.00" convBoundary="0.00,0.00,600.00,600.00" origBoundary="-300.00,-300.00,300.00,300.00" projParameter="!"/>
+
+    <edge id=":central_junction_0" function="internal">
+        <lane id=":central_junction_0_0" index="0" speed="6.51" length="9.03" shape="292.00,313.60 291.65,311.15 290.60,309.40 288.85,308.35 286.40,308.00"/>
+    </edge>
+    <edge id=":central_junction_1" function="internal">
+        <lane id=":central_junction_1_0" index="0" speed="13.89" length="27.20" shape="295.20,313.60 295.20,286.40"/>
+    </edge>
+    <edge id=":central_junction_2" function="internal">
+        <lane id=":central_junction_2_0" index="0" speed="10.36" length="12.07" shape="298.40,313.60 299.35,306.95 302.10,302.36"/>
+    </edge>
+    <edge id=":central_junction_12" function="internal">
+        <lane id=":central_junction_12_0" index="0" speed="10.36" length="12.44" shape="302.10,302.36 302.20,302.20 306.95,299.35 313.60,298.40"/>
+    </edge>
+    <edge id=":central_junction_3" function="internal">
+        <lane id=":central_junction_3_0" index="0" speed="6.51" length="9.03" shape="313.60,308.00 311.15,308.35 309.40,309.40 308.35,311.15 308.00,313.60"/>
+    </edge>
+    <edge id=":central_junction_4" function="internal">
+        <lane id=":central_junction_4_0" index="0" speed="13.89" length="27.20" shape="313.60,304.80 286.40,304.80"/>
+    </edge>
+    <edge id=":central_junction_5" function="internal">
+        <lane id=":central_junction_5_0" index="0" speed="10.36" length="12.07" shape="313.60,301.60 306.95,300.65 302.36,297.90"/>
+    </edge>
+    <edge id=":central_junction_13" function="internal">
+        <lane id=":central_junction_13_0" index="0" speed="10.36" length="12.44" shape="302.36,297.90 302.20,297.80 299.35,293.05 298.40,286.40"/>
+    </edge>
+    <edge id=":central_junction_6" function="internal">
+        <lane id=":central_junction_6_0" index="0" speed="6.51" length="9.03" shape="308.00,286.40 308.35,288.85 309.40,290.60 311.15,291.65 313.60,292.00"/>
+    </edge>
+    <edge id=":central_junction_7" function="internal">
+        <lane id=":central_junction_7_0" index="0" speed="13.89" length="27.20" shape="304.80,286.40 304.80,313.60"/>
+    </edge>
+    <edge id=":central_junction_8" function="internal">
+        <lane id=":central_junction_8_0" index="0" speed="10.36" length="12.07" shape="301.60,286.40 300.65,293.05 297.90,297.64"/>
+    </edge>
+    <edge id=":central_junction_14" function="internal">
+        <lane id=":central_junction_14_0" index="0" speed="10.36" length="12.44" shape="297.90,297.64 297.80,297.80 293.05,300.65 286.40,301.60"/>
+    </edge>
+    <edge id=":central_junction_9" function="internal">
+        <lane id=":central_junction_9_0" index="0" speed="6.51" length="9.03" shape="286.40,292.00 288.85,291.65 290.60,290.60 291.65,288.85 292.00,286.40"/>
+    </edge>
+    <edge id=":central_junction_10" function="internal">
+        <lane id=":central_junction_10_0" index="0" speed="13.89" length="27.20" shape="286.40,295.20 313.60,295.20"/>
+    </edge>
+    <edge id=":central_junction_11" function="internal">
+        <lane id=":central_junction_11_0" index="0" speed="10.36" length="12.07" shape="286.40,298.40 293.05,299.35 297.64,302.10"/>
+    </edge>
+    <edge id=":central_junction_15" function="internal">
+        <lane id=":central_junction_15_0" index="0" speed="10.36" length="12.44" shape="297.64,302.10 297.80,302.20 300.65,306.95 301.60,313.60"/>
+    </edge>
+
+    <edge id="east_in" from="east_source" to="central_junction" priority="1">
+        <lane id="east_in_0" index="0" speed="13.89" length="136.40" shape="450.00,308.00 313.60,308.00"/>
+        <lane id="east_in_1" index="1" speed="13.89" length="136.40" shape="450.00,304.80 313.60,304.80"/>
+        <lane id="east_in_2" index="2" speed="13.89" length="136.40" shape="450.00,301.60 313.60,301.60"/>
+    </edge>
+    <edge id="east_out" from="central_junction" to="east_sink" priority="1">
+        <lane id="east_out_0" index="0" speed="13.89" length="286.40" shape="313.60,292.00 600.00,292.00"/>
+        <lane id="east_out_1" index="1" speed="13.89" length="286.40" shape="313.60,295.20 600.00,295.20"/>
+        <lane id="east_out_2" index="2" speed="13.89" length="286.40" shape="313.60,298.40 600.00,298.40"/>
+    </edge>
+    <edge id="north_in" from="north_source" to="central_junction" priority="1">
+        <lane id="north_in_0" index="0" speed="13.89" length="136.40" shape="292.00,450.00 292.00,313.60"/>
+        <lane id="north_in_1" index="1" speed="13.89" length="136.40" shape="295.20,450.00 295.20,313.60"/>
+        <lane id="north_in_2" index="2" speed="13.89" length="136.40" shape="298.40,450.00 298.40,313.60"/>
+    </edge>
+    <edge id="north_out" from="central_junction" to="north_sink" priority="1">
+        <lane id="north_out_0" index="0" speed="13.89" length="286.40" shape="308.00,313.60 308.00,600.00"/>
+        <lane id="north_out_1" index="1" speed="13.89" length="286.40" shape="304.80,313.60 304.80,600.00"/>
+        <lane id="north_out_2" index="2" speed="13.89" length="286.40" shape="301.60,313.60 301.60,600.00"/>
+    </edge>
+    <edge id="south_in" from="south_source" to="central_junction" priority="1">
+        <lane id="south_in_0" index="0" speed="13.89" length="136.40" shape="308.00,150.00 308.00,286.40"/>
+        <lane id="south_in_1" index="1" speed="13.89" length="136.40" shape="304.80,150.00 304.80,286.40"/>
+        <lane id="south_in_2" index="2" speed="13.89" length="136.40" shape="301.60,150.00 301.60,286.40"/>
+    </edge>
+    <edge id="south_out" from="central_junction" to="south_sink" priority="1">
+        <lane id="south_out_0" index="0" speed="13.89" length="286.40" shape="292.00,286.40 292.00,0.00"/>
+        <lane id="south_out_1" index="1" speed="13.89" length="286.40" shape="295.20,286.40 295.20,0.00"/>
+        <lane id="south_out_2" index="2" speed="13.89" length="286.40" shape="298.40,286.40 298.40,0.00"/>
+    </edge>
+    <edge id="west_in" from="west_source" to="central_junction" priority="1">
+        <lane id="west_in_0" index="0" speed="13.89" length="136.40" shape="150.00,292.00 286.40,292.00"/>
+        <lane id="west_in_1" index="1" speed="13.89" length="136.40" shape="150.00,295.20 286.40,295.20"/>
+        <lane id="west_in_2" index="2" speed="13.89" length="136.40" shape="150.00,298.40 286.40,298.40"/>
+    </edge>
+    <edge id="west_out" from="central_junction" to="west_sink" priority="1">
+        <lane id="west_out_0" index="0" speed="13.89" length="286.40" shape="286.40,308.00 0.00,308.00"/>
+        <lane id="west_out_1" index="1" speed="13.89" length="286.40" shape="286.40,304.80 0.00,304.80"/>
+        <lane id="west_out_2" index="2" speed="13.89" length="286.40" shape="286.40,301.60 0.00,301.60"/>
+    </edge>
+
+    <tlLogic id="central_junction" type="static" programID="0" offset="0">
+        <phase duration="33" state="GGgGrrGGgGrr"/>
+        <phase duration="3"  state="yygyrryygyrr"/>
+        <phase duration="6"  state="rrGrrrrrGrrr"/>
+        <phase duration="3"  state="rryrrrrryrrr"/>
+        <phase duration="33" state="GrrGGgGrrGGg"/>
+        <phase duration="3"  state="yrryygyrryyg"/>
+        <phase duration="6"  state="rrrrrGrrrrrG"/>
+        <phase duration="3"  state="rrrrryrrrrry"/>
+    </tlLogic>
+
+    <junction id="central_junction" type="traffic_light" x="300.00" y="300.00" incLanes="north_in_0 north_in_1 north_in_2 east_in_0 east_in_1 east_in_2 south_in_0 south_in_1 south_in_2 west_in_0 west_in_1 west_in_2" intLanes=":central_junction_0_0 :central_junction_1_0 :central_junction_12_0 :central_junction_3_0 :central_junction_4_0 :central_junction_13_0 :central_junction_6_0 :central_junction_7_0 :central_junction_14_0 :central_junction_9_0 :central_junction_10_0 :central_junction_15_0" shape="290.40,313.60 309.60,313.60 310.04,311.38 310.60,310.60 311.38,310.04 312.38,309.71 313.60,309.60 313.60,290.40 311.38,289.96 310.60,289.40 310.04,288.62 309.71,287.62 309.60,286.40 290.40,286.40 289.96,288.62 289.40,289.40 288.62,289.96 287.62,290.29 286.40,290.40 286.40,309.60 288.62,310.04 289.40,310.60 289.96,311.38 290.29,312.38">
+        <request index="0"  response="000000000000" foes="000000000000" cont="0"/>
+        <request index="1"  response="100000000000" foes="110100010000" cont="0"/>
+        <request index="2"  response="100010100000" foes="100010110000" cont="1"/>
+        <request index="3"  response="000000000000" foes="000000000000" cont="0"/>
+        <request index="4"  response="000010000110" foes="100010000110" cont="0"/>
+        <request index="5"  response="010110000100" foes="010110000100" cont="1"/>
+        <request index="6"  response="000000000000" foes="000000000000" cont="0"/>
+        <request index="7"  response="000000100000" foes="010000110100" cont="0"/>
+        <request index="8"  response="100000100010" foes="110000100010" cont="1"/>
+        <request index="9"  response="000000000000" foes="000000000000" cont="0"/>
+        <request index="10" response="000110000010" foes="000110100010" cont="0"/>
+        <request index="11" response="000100010110" foes="000100010110" cont="1"/>
+    </junction>
+    <junction id="east_sink" type="dead_end" x="600.00" y="300.00" incLanes="east_out_0 east_out_1 east_out_2" intLanes="" shape="600.00,290.40 600.00,300.00"/>
+    <junction id="east_source" type="dead_end" x="450.00" y="300.00" incLanes="" intLanes="" shape="450.00,300.00 450.00,309.60"/>
+    <junction id="north_sink" type="dead_end" x="300.00" y="600.00" incLanes="north_out_0 north_out_1 north_out_2" intLanes="" shape="309.60,600.00 300.00,600.00"/>
+    <junction id="north_source" type="dead_end" x="300.00" y="450.00" incLanes="" intLanes="" shape="300.00,450.00 290.40,450.00"/>
+    <junction id="south_sink" type="dead_end" x="300.00" y="0.00" incLanes="south_out_0 south_out_1 south_out_2" intLanes="" shape="290.40,0.00 300.00,0.00"/>
+    <junction id="south_source" type="dead_end" x="300.00" y="150.00" incLanes="" intLanes="" shape="300.00,150.00 309.60,150.00"/>
+    <junction id="west_sink" type="dead_end" x="0.00" y="300.00" incLanes="west_out_0 west_out_1 west_out_2" intLanes="" shape="0.00,309.60 0.00,300.00"/>
+    <junction id="west_source" type="dead_end" x="150.00" y="300.00" incLanes="" intLanes="" shape="150.00,300.00 150.00,290.40"/>
+
+    <junction id=":central_junction_12_0" type="internal" x="302.10" y="302.36" incLanes=":central_junction_2_0 south_in_1" intLanes=":central_junction_4_0 :central_junction_5_0 :central_junction_7_0 :central_junction_11_0"/>
+    <junction id=":central_junction_13_0" type="internal" x="302.36" y="297.90" incLanes=":central_junction_5_0 west_in_1" intLanes=":central_junction_2_0 :central_junction_7_0 :central_junction_8_0 :central_junction_10_0"/>
+    <junction id=":central_junction_14_0" type="internal" x="297.90" y="297.64" incLanes=":central_junction_8_0 north_in_1" intLanes=":central_junction_1_0 :central_junction_5_0 :central_junction_10_0 :central_junction_11_0"/>
+    <junction id=":central_junction_15_0" type="internal" x="297.64" y="302.10" incLanes=":central_junction_11_0 east_in_1" intLanes=":central_junction_1_0 :central_junction_2_0 :central_junction_4_0 :central_junction_8_0"/>
+
+    <connection from="east_in" to="north_out" fromLane="0" toLane="0" via=":central_junction_3_0" tl="central_junction" linkIndex="3" dir="r" state="O"/>
+    <connection from="east_in" to="west_out" fromLane="1" toLane="1" via=":central_junction_4_0" tl="central_junction" linkIndex="4" dir="s" state="o"/>
+    <connection from="east_in" to="south_out" fromLane="2" toLane="2" via=":central_junction_5_0" tl="central_junction" linkIndex="5" dir="l" state="o"/>
+    <connection from="north_in" to="west_out" fromLane="0" toLane="0" via=":central_junction_0_0" tl="central_junction" linkIndex="0" dir="r" state="O"/>
+    <connection from="north_in" to="south_out" fromLane="1" toLane="1" via=":central_junction_1_0" tl="central_junction" linkIndex="1" dir="s" state="O"/>
+    <connection from="north_in" to="east_out" fromLane="2" toLane="2" via=":central_junction_2_0" tl="central_junction" linkIndex="2" dir="l" state="o"/>
+    <connection from="south_in" to="east_out" fromLane="0" toLane="0" via=":central_junction_6_0" tl="central_junction" linkIndex="6" dir="r" state="O"/>
+    <connection from="south_in" to="north_out" fromLane="1" toLane="1" via=":central_junction_7_0" tl="central_junction" linkIndex="7" dir="s" state="O"/>
+    <connection from="south_in" to="west_out" fromLane="2" toLane="2" via=":central_junction_8_0" tl="central_junction" linkIndex="8" dir="l" state="o"/>
+    <connection from="west_in" to="south_out" fromLane="0" toLane="0" via=":central_junction_9_0" tl="central_junction" linkIndex="9" dir="r" state="O"/>
+    <connection from="west_in" to="east_out" fromLane="1" toLane="1" via=":central_junction_10_0" tl="central_junction" linkIndex="10" dir="s" state="o"/>
+    <connection from="west_in" to="north_out" fromLane="2" toLane="2" via=":central_junction_11_0" tl="central_junction" linkIndex="11" dir="l" state="o"/>
+
+    <connection from=":central_junction_0" to="west_out" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":central_junction_1" to="south_out" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":central_junction_2" to="east_out" fromLane="0" toLane="2" via=":central_junction_12_0" dir="l" state="m"/>
+    <connection from=":central_junction_12" to="east_out" fromLane="0" toLane="2" dir="l" state="M"/>
+    <connection from=":central_junction_3" to="north_out" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":central_junction_4" to="west_out" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":central_junction_5" to="south_out" fromLane="0" toLane="2" via=":central_junction_13_0" dir="l" state="m"/>
+    <connection from=":central_junction_13" to="south_out" fromLane="0" toLane="2" dir="l" state="M"/>
+    <connection from=":central_junction_6" to="east_out" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":central_junction_7" to="north_out" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":central_junction_8" to="west_out" fromLane="0" toLane="2" via=":central_junction_14_0" dir="l" state="m"/>
+    <connection from=":central_junction_14" to="west_out" fromLane="0" toLane="2" dir="l" state="M"/>
+    <connection from=":central_junction_9" to="south_out" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":central_junction_10" to="east_out" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":central_junction_11" to="north_out" fromLane="0" toLane="2" via=":central_junction_15_0" dir="l" state="m"/>
+    <connection from=":central_junction_15" to="north_out" fromLane="0" toLane="2" dir="l" state="M"/>
+
+</net>

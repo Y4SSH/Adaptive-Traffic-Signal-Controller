@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges>
+    <!-- Incoming approaches -->
+    <edge id="north_in" from="north_source" to="central_junction" priority="1" numLanes="3">
+        <lane index="0" speed="13.89" length="145.0"/>
+        <lane index="1" speed="13.89" length="145.0"/>
+        <lane index="2" speed="13.89" length="145.0"/>
+    </edge>
+    <edge id="south_in" from="south_source" to="central_junction" priority="1" numLanes="3">
+        <lane index="0" speed="13.89" length="145.0"/>
+        <lane index="1" speed="13.89" length="145.0"/>
+        <lane index="2" speed="13.89" length="145.0"/>
+    </edge>
+    <edge id="east_in" from="east_source" to="central_junction" priority="1" numLanes="3">
+        <lane index="0" speed="13.89" length="145.0"/>
+        <lane index="1" speed="13.89" length="145.0"/>
+        <lane index="2" speed="13.89" length="145.0"/>
+    </edge>
+    <edge id="west_in" from="west_source" to="central_junction" priority="1" numLanes="3">
+        <lane index="0" speed="13.89" length="145.0"/>
+        <lane index="1" speed="13.89" length="145.0"/>
+        <lane index="2" speed="13.89" length="145.0"/>
+    </edge>
+
+    <!-- Outgoing edges -->
+    <edge id="north_out" from="central_junction" to="north_sink" priority="1" numLanes="3">
+        <lane index="0" speed="13.89" length="145.0"/>
+        <lane index="1" speed="13.89" length="145.0"/>
+        <lane index="2" speed="13.89" length="145.0"/>
+    </edge>
+    <edge id="south_out" from="central_junction" to="south_sink" priority="1" numLanes="3">
+        <lane index="0" speed="13.89" length="145.0"/>
+        <lane index="1" speed="13.89" length="145.0"/>
+        <lane index="2" speed="13.89" length="145.0"/>
+    </edge>
+    <edge id="east_out" from="central_junction" to="east_sink" priority="1" numLanes="3">
+        <lane index="0" speed="13.89" length="145.0"/>
+        <lane index="1" speed="13.89" length="145.0"/>
+        <lane index="2" speed="13.89" length="145.0"/>
+    </edge>
+    <edge id="west_out" from="central_junction" to="west_sink" priority="1" numLanes="3">
+        <lane index="0" speed="13.89" length="145.0"/>
+        <lane index="1" speed="13.89" length="145.0"/>
+        <lane index="2" speed="13.89" length="145.0"/>
+    </edge>
+</edges>

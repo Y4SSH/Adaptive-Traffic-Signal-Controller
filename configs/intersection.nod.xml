@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+    <node id="north_source" x="0.0" y="150.0" type="priority"/>
+    <node id="south_source" x="0.0" y="-150.0" type="priority"/>
+    <node id="east_source" x="150.0" y="0.0" type="priority"/>
+    <node id="west_source" x="-150.0" y="0.0" type="priority"/>
+
+    <node id="north_sink" x="0.0" y="300.0" type="priority"/>
+    <node id="south_sink" x="0.0" y="-300.0" type="priority"/>
+    <node id="east_sink" x="300.0" y="0.0" type="priority"/>
+    <node id="west_sink" x="-300.0" y="0.0" type="priority"/>
+
+    <node id="central_junction" x="0.0" y="0.0" type="traffic_light"/>
+</nodes>
