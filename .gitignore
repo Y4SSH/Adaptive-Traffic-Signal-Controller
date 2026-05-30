@@ -48,4 +48,4 @@ configs/demand*.rou.xml
 best_model.zip
 
 # Optional artifact bundles
-artifacts/*.zip
+# artifacts/*.zip  (disabled so final bundle can be committed for handoff)
