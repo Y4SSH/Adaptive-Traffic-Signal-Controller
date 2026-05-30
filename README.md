@@ -1,4 +1,4 @@
-# 🚦 Adaptive Traffic Signal Controller Using Deep Reinforcement Learning (DQN)
+#  Adaptive Traffic Signal Controller Using Deep Reinforcement Learning (DQN)
 
 A production-ready repository implementing a DQN-based traffic signal controller for SUMO using a custom Gym environment and Stable-Baselines3. The project includes training, multi-seed evaluation, demand generation, GUI playback, tests, and curated artifacts for handoff.
 
@@ -85,6 +85,3 @@ python -m pytest
 - `eval_logs/` — evaluation outputs
 
 ---
-
-If you want, I can also produce `README_SHORT.md`, a `requirements.txt` exported from the environment, or a minimal `Dockerfile` to reproduce SUMO + Python for playback. Tell me which and I will add it.
-
